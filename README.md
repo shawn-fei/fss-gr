@@ -1,4 +1,5 @@
-1.fss-gr-sceneflow
+Step 1. capture scene flow F/F*
+fss-gr-sceneflow
 (1)Environment configuration
 V100-32G,cuda=10.1,python=3.6.13
 
@@ -32,3 +33,6 @@ Running `scripts/process_est_flow.py` generates 2800 txt files under \est_flow.
 est_flow is F*.
 
 Finally, scene flow is obtained.
+
+2.fss-gr-s-d
+(1)Environment configuration

@@ -20,7 +20,6 @@ sh compile_chamfer_distance_op.sh
 Run the python file above to generate 89600 npz files.
 
 (4)scripts/train_on_shrec.sh
-![image](https://github.com/user-attachments/assets/1c7ba2aa-3573-4833-b333-d27401e225f8)
 The above three parameters can be modified.
 Recon_flow and its data source are generated on the upper side: stored in /recon_flow/log.txt and /data_source_recon_flow/log.txt respectively. The generation model is saved in log_dir.
 recon_flow is F.

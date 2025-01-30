@@ -54,7 +54,10 @@ pip install pyyaml
 conda install pytorch-cpu==1.1.0 torchvision-cpu==0.3.0 cpuonly -c pytorch
 pip install -i https://pypi.doubanio.com/simple/ tensorflow-gpu==1.13.1
 
-(2)Compile Customized TF Operators
+(2)Dataset transmission
+Put the `est_flow` or 'recon_flow' (F* or F)generated in Step 1 into the `dataset` folder of fss-gr-s-d.
+
+(3)Compile Customized TF Operators
 
 
 

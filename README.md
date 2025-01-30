@@ -40,7 +40,9 @@ Finally, scene flow is obtained.
 2.Fusing features.
 
 dir:fss-gr-s-d
+
 (1)Environment configuration
+
 v100-16G,Cuda10.0,python=3.6
 conda activate
 conda create -n name python=3.6

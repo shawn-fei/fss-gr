@@ -60,7 +60,18 @@ Put the `est_flow` or 'recon_flow' (F* or F)generated in Step 1 into the `datase
 (3)Compile Customized TF Operators
 
 
+(4)train/test.
 
+cd shrec2017_release
 
+bash train_dynamic.sh
+
+bash test.sh
+
+The Kinet is the backbone. The code is at https://github.com/jx-zhong-for-academicpurpose/Kinet.
+The Kinet:
+Zhong, J.X.; Zhou, K.; Hu, Q.;Wang, B.; Trigoni, N.; Markham, A. No Pain, Big Gain: Classify Dynamic Point Cloud Sequences 598
+with Static Models by Fitting Feature-level Space-time Surfaces. In Proceedings of the 2022 IEEE/CVF Conference on Computer 599
+Vision and Pattern Recognition (CVPR), 2022, pp. 8500–8510. https://doi.org/10.1109/CVPR52688.2022.00832.
 
 

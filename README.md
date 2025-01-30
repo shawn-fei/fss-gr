@@ -1,5 +1,6 @@
 Step 1. capture scene flow F/F*
-fss-gr-sceneflow
+
+dir:fss-gr-sceneflow
 (1)Environment configuration
 V100-32G,cuda=10.1,python=3.6.13
 
@@ -18,6 +19,7 @@ pip install thop
 sh compile_chamfer_distance_op.sh
 
 (3)./data/FlowNet3D/SHREC2017/test_gnpz2.py
+construct pairs of point clouds.
 Run the python file above to generate 89600 npz files.
 
 (4)scripts/train_on_shrec.sh
@@ -34,5 +36,25 @@ est_flow is F*.
 
 Finally, scene flow is obtained.
 
-2.fss-gr-s-d
+2.Fusing features.
+
+dir:fss-gr-s-d
 (1)Environment configuration
+v100-16G,Cuda10.0,python=3.6
+conda activate
+conda create -n name python=3.6
+conda activate name
+
+conda install numpy==1.16
+pip install   matplotlib
+pip install pyyaml
+conda install pytorch-cpu==1.1.0 torchvision-cpu==0.3.0 cpuonly -c pytorch
+pip install -i https://pypi.doubanio.com/simple/ tensorflow-gpu==1.13.1
+
+(2)Compile Customized TF Operators
+
+
+
+
+
+

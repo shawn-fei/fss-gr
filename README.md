@@ -37,7 +37,7 @@ est_flow is F*.
 
 Finally, scene flow is obtained.
 
-2.Fusing features.
+Step 2.Fusing features.
 
 dir:fss-gr-s-d
 

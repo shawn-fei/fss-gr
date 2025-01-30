@@ -1,4 +1,4 @@
-Step 1. capture scene flow F/F*
+Step 1. capture scene flow F/F*.
 
 dir:fss-gr-sceneflow
 

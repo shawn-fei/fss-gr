@@ -70,10 +70,14 @@ bash test.sh
 
 
 Our code mainly refers to the following two papers. We are very grateful for that.
-The Kinet:
+
 Zhong, J.X.; Zhou, K.; Hu, Q.;Wang, B.; Trigoni, N.; Markham, A. No Pain, Big Gain: Classify Dynamic Point Cloud Sequences 598
 with Static Models by Fitting Feature-level Space-time Surfaces. In Proceedings of the 2022 IEEE/CVF Conference on Computer 599
 Vision and Pattern Recognition (CVPR), 2022, pp. 8500–8510. https://doi.org/10.1109/CVPR52688.2022.00832.
+
+Lang, I.; Aiger, D.; Cole, F.; Avidan, S.; Rubinstein, M. SCOOP: Self-Supervised Correspondence and Optimization-Based Scene
+Flow. In Proceedings of the 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, BC,
+Canada, 17–24 June 2023; pp. 5281–5290. https://doi.org/10.1109/CVPR52729.2023.00511.
 
 
 
